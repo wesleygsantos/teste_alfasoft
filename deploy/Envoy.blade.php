@@ -1,4 +1,4 @@
-@servers(['web' => ['wesleygsantos@wesleygsantos.eu1.alfasoft.pt']])
+@servers(['web' => ['wesleygsantos@78.159.112.135:22']])
 
 @setup
     $path = "/cloudcmd/"

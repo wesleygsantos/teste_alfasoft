@@ -17,4 +17,4 @@ use App\Http\Controllers\PeopleController;
 
 Route::get('/', [PeopleController::class, 'index']);
 
-Route::get('/cadastroPessoas', [PeopleController::class, 'create']);
+Route::get('/pessoas/create', [PeopleController::class, 'create']);

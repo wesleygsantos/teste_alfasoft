@@ -40,7 +40,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="/cadastroPessoas" class="nav-link">Adicionar Pessoas</a>
+                            <a href="/pessoas/create" class="nav-link">Adicionar Pessoas</a>
                         </li>
 
                     </ul>

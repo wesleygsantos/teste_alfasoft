@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PeopleController;
 
 Route::get('/', [PeopleController::class, 'index']);
-
 Route::get('/pessoas/create', [PeopleController::class, 'create']);
+Route::post('/pessoas', [PeopleController::class, 'store']);

@@ -9,7 +9,6 @@
     composer
     config
     route
-    restart
 @endstory
  
 @task('git')
@@ -36,5 +35,6 @@
 
     php artisan route:cache
 @endtask
+
 
 

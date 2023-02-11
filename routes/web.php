@@ -13,13 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\PeopleController;
 
-Route::get('/cadastroPessoas', function () {
+Route::get('/', [PeopleController::class, 'index']);
 
-    $nome = "Wesley";
-
-    return view('cadastro_pessoas',["nome" => $nome]);
-});
+Route::get('/cadastroPessoas', [PeopleController::class, 'create']);

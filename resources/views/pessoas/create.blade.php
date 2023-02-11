@@ -5,9 +5,8 @@
 @section('content')
 
 
-<h1>Teste Contatos</h1>
+<h1>Cadastre uma nova Pessoa</h1>
 
-<p>{{$nome}}</p>
 <a href="/">Voltar</a>
 
 @endsection

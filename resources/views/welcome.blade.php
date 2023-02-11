@@ -4,4 +4,6 @@
 
 @section('content')
 
+<p>{{$nome}}</p>
+
 @endsection

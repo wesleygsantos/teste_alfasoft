@@ -10,8 +10,8 @@ class PeopleController extends Controller
    
     public function index() {
 
-        $nome = "Ana Paula Guimarães";
-        return view('welcome',['nome' => $nome]);
+        $pessoas = Pessoas::all();
+        return view('welcome',['pessoas' => $pessoas]);
 
     }
 
